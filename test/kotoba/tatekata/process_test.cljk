@@ -13,7 +13,7 @@
   (:require [kotoba.test :refer [deftest is testing]]
             [kotoba.tatekata.process :as process]
             #?(:clj [clojure.java.io :as io])
-            #?(:clj [clojure.edn :as edn])))
+            #?(:clj [kotoba.lang.edn :as edn])))
 
 (defn- load-ops []
   #?(:clj (edn/read-string (slurp (io/resource "kotoba/tatekata/process-ops.edn")))

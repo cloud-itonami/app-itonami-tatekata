@@ -17,7 +17,7 @@
 ;;                              :db/id が無ければ振り、schema.edn に属性を登録する
 ;;                              だけ（idiomatic な既存名前空間を壊さない）。
 
-(require '[clojure.edn :as edn]
+(require '[kotoba.lang.edn :as edn]
          '[kotoba.lang.text :as str])
 
 (def fs (js/require "node:fs"))
