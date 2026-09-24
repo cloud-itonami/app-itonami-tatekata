@@ -4,7 +4,7 @@
   `sweeping_pass_fuses_the_seam` -> `sweeping-pass-fuses-the-seam-test`,
   `field_cools_back_toward_ambient_but_keeps_fusion_evidence` ->
     `field-cools-back-toward-ambient-but-keeps-fusion-evidence-test`."
-  (:require [clojure.test :refer [deftest is testing]]
+  (:require [kotoba.test :refer [deftest is testing]]
             [kotoba.tatekata.weld-field :as wf]))
 
 (deftest sweeping-pass-fuses-the-seam-test

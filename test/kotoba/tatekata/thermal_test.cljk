@@ -12,7 +12,7 @@
 
   Same loose tolerances as the Rust originals (they are honest about the
   first-order explicit FDM's precision)."
-  (:require [clojure.test :refer [deftest is testing]]
+  (:require [kotoba.test :refer [deftest is testing]]
             [kotoba.tatekata.thermal :as thermal]))
 
 (defn- abs* [x] #?(:clj (Math/abs (double x)) :cljs (js/Math.abs x)))

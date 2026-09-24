@@ -3,7 +3,7 @@
   `kami-app-tatekata::deposit_field.rs`'s `#[test]` block:
   `raster_deposit_fills_to_target` -> `raster-deposit-fills-to-target-test`,
   `localized_deposit_is_partial` -> `localized-deposit-is-partial-test`."
-  (:require [clojure.test :refer [deftest is testing]]
+  (:require [kotoba.test :refer [deftest is testing]]
             [kotoba.tatekata.deposit-field :as df]))
 
 (deftest raster-deposit-fills-to-target-test
