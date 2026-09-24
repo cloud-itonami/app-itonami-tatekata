@@ -10,7 +10,7 @@
   `op-at` at the very start returns the procure op; `build-progress` is ~0 at
   p=0 and ~1 at p=1; `logistics-at` is nil while procure is active — against
   the small synthetic fixture at `resources/kotoba/tatekata/process-ops.edn`."
-  (:require [clojure.test :refer [deftest is testing]]
+  (:require [kotoba.test :refer [deftest is testing]]
             [kotoba.tatekata.process :as process]
             #?(:clj [clojure.java.io :as io])
             #?(:clj [clojure.edn :as edn])))
