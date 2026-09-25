@@ -12,7 +12,7 @@
   the small synthetic fixture at `resources/kotoba/tatekata/process-ops.edn`."
   (:require [kotoba.test :refer [deftest is testing]]
             [kotoba.tatekata.process :as process]
-            #?(:clj [clojure.java.io :as io])
+            #?(:clj [kotoba.io :as io])
             #?(:clj [kotoba.lang.edn :as edn])))
 
 (defn- load-ops []
